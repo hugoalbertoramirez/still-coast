@@ -1,0 +1,30 @@
+{
+  "name": "Start on Heroku: Node.js",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs",
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "description": "Client access token for Api.ai",
+      "value": "f36148c6e15e4a07bd33558e836c71a7"
+    },
+    "FB_VERIFY_TOKEN": {
+      "description": "Verification code",
+      "value": "verysecret"
+    },
+    "FB_PAGE_ACCESS_TOKEN": {
+      "description": "Page Access Token",
+      "value": "EAAa8JMjM1akBAGfwe7zuXr6Oldo3Q30tTRlVgQ5wCgKGJYSYXbFp95DCEgbg7XpuogUMS3UeSRdz2LmzihRZB0mBY91taj1hgb7BnE794zNP9L1V0ufXbUQhMeFvWe8MaYAnNsOhQ6ezK6cG1sYfwtKvYsqv02EomXTdDjZB7CEhDYvp81"
+    },
+    "APIAI_LANG": {
+      "description": "Agent language",
+      "value": "es",
+      "required": false
+    }
+  },
+  "engines": {
+    "node": "6.9.5"
+  }
+}
